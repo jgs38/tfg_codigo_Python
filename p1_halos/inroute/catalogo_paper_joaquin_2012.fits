@@ -1,0 +1,213 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 5450 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="J_ApJ_749_65_table1" nrows="64">
+<PARAM arraysize="12" datatype="char" name="CDS-CAT" value="J/ApJ/749/65">
+<DESCRIPTION>Catalogue designation in CDS nomenclature</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="CDS-NAME" value="J/ApJ/749/65/table1">
+<DESCRIPTION>Table name in METAtab</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="UCD__1" value="meta.id;meta.main">
+<DESCRIPTION>................................byte#0</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__2" value="meta.code">
+<DESCRIPTION>................................byte#16</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="7" datatype="char" name="UCD__3" value="meta.id">
+<DESCRIPTION>................................byte#17</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="9" datatype="char" name="UCD__4" value="meta.note">
+<DESCRIPTION>................................byte#19</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="UCD__5" value="phot.flux.density;em.mm.400-750GHz">
+<DESCRIPTION>................byte#22</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__6" value="stat.error">
+<DESCRIPTION>................................byte#24</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="UCD__7" value="phot.flux.density;em.mm.750-1500GHz">
+<DESCRIPTION>...............byte#26</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__8" value="stat.error">
+<DESCRIPTION>................................byte#28</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="UCD__9" value="phot.flux.density;em.mm.750-1500GHz">
+<DESCRIPTION>...............byte#29</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__10" value="stat.error">
+<DESCRIPTION>................................byte#31</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="12" datatype="char" name="UCD__11" value="src.redshift">
+<DESCRIPTION>................................byte#32</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="23" datatype="char" name="UCD__12" value="stat.error;src.redshift">
+<DESCRIPTION>...........................byte#36</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="30" datatype="char" name="UCD__13" value="phys.luminosity;em.IR.60-100um">
+<DESCRIPTION>....................byte#40</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__14" value="stat.error">
+<DESCRIPTION>................................byte#44</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="29" datatype="char" name="UCD__15" value="src.redshift;pos.heliocentric">
+<DESCRIPTION>.....................byte#48</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="10" datatype="char" name="UCD__16" value="stat.error">
+<DESCRIPTION>................................byte#52</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="UCD__17" value="meta.ref;pos.frame">
+<DESCRIPTION>................................byte#56</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="28" datatype="char" name="UCD__18" value="phot.color;em.opt.B;em.opt.R">
+<DESCRIPTION>......................byte#58</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="22" datatype="char" name="UCD__19" value="phot.color;em.IR;em.IR">
+<DESCRIPTION>............................byte#62</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="15" datatype="char" name="UCD__20" value="pos.angDistance">
+<DESCRIPTION>................................byte#66</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="12" datatype="char" name="UCD__21" value="meta.ref.url">
+<DESCRIPTION>................................byte#70</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="UCD__22" value="pos.eq.ra;meta.main">
+<DESCRIPTION>...............................byte#76</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="UCD__23" value="pos.eq.dec;meta.main">
+<DESCRIPTION>..............................byte#84</DESCRIPTION>
+</PARAM>
+<FIELD arraysize="16" datatype="char" name="H-ATLAS"/>
+<FIELD arraysize="6" datatype="char" name="Simbad"/>
+<FIELD datatype="double" name="_RA" unit="deg"/>
+<FIELD datatype="double" name="_DE" unit="deg"/>
+<FIELD datatype="short" name="S250" unit="mJy">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="S350" unit="mJy">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="S500" unit="mJy">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="e_S250" unit="mJy">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="e_S350" unit="mJy">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="e_S500" unit="mJy">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="z"/>
+<FIELD datatype="float" name="e_z"/>
+<FIELD datatype="short" name="SDP">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD arraysize="3" datatype="char" name="n_SDP"/>
+<FIELD datatype="float" name="logL100" unit="W/Hz"/>
+<FIELD arraysize="1" datatype="char" name="f_H-ATLAS"/>
+<FIELD datatype="float" name="e_logL100" unit="W/Hz"/>
+<FIELD datatype="float" name="zlens"/>
+<FIELD datatype="float" name="e_zlens"/>
+<FIELD arraysize="2" datatype="char" name="r_zlens"/>
+<FIELD datatype="float" name="__g-r_"/>
+<FIELD datatype="float" name="__Z-H_"/>
+<FIELD datatype="float" name="Delta" unit="arcsec"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                                                                      XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                   94 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   23 / number of columns                              EXTNAME = 'J_ApJ_749_65_table1' / table name                                    TTYPE1  = 'H-ATLAS '           / label for column 1                             TFORM1  = '16A     '           / format for column 1                            TTYPE2  = 'Simbad  '           / label for column 2                             TFORM2  = '6A      '           / format for column 2                            TTYPE3  = '_RA     '           / label for column 3                             TFORM3  = 'D       '           / format for column 3                            TUNIT3  = 'deg     '           / units for column 3                             TTYPE4  = '_DE     '           / label for column 4                             TFORM4  = 'D       '           / format for column 4                            TUNIT4  = 'deg     '           / units for column 4                             TTYPE5  = 'S250    '           / label for column 5                             TFORM5  = 'I       '           / format for column 5                            TUNIT5  = 'mJy     '           / units for column 5                             TNULL5  =               -32768 / blank value for column 5                       TTYPE6  = 'S350    '           / label for column 6                             TFORM6  = 'I       '           / format for column 6                            TUNIT6  = 'mJy     '           / units for column 6                             TNULL6  =               -32768 / blank value for column 6                       TTYPE7  = 'S500    '           / label for column 7                             TFORM7  = 'I       '           / format for column 7                            TUNIT7  = 'mJy     '           / units for column 7                             TNULL7  =               -32768 / blank value for column 7                       TTYPE8  = 'e_S250  '           / label for column 8                             TFORM8  = 'I       '           / format for column 8                            TUNIT8  = 'mJy     '           / units for column 8                             TNULL8  =               -32768 / blank value for column 8                       TTYPE9  = 'e_S350  '           / label for column 9                             TFORM9  = 'I       '           / format for column 9                            TUNIT9  = 'mJy     '           / units for column 9                             TNULL9  =               -32768 / blank value for column 9                       TTYPE10 = 'e_S500  '           / label for column 10                            TFORM10 = 'I       '           / format for column 10                           TUNIT10 = 'mJy     '           / units for column 10                            TNULL10 =               -32768 / blank value for column 10                      TTYPE11 = 'z       '           / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TTYPE12 = 'e_z     '           / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TTYPE13 = 'SDP     '           / label for column 13                            TFORM13 = 'I       '           / format for column 13                           TNULL13 =               -32768 / blank value for column 13                      TTYPE14 = 'n_SDP   '           / label for column 14                            TFORM14 = '3A      '           / format for column 14                           TTYPE15 = 'logL100 '           / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TUNIT15 = 'W/Hz    '           / units for column 15                            TTYPE16 = 'f_H-ATLAS'          / label for column 16                            TFORM16 = 'A       '           / format for column 16                           TTYPE17 = 'e_logL100'          / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TUNIT17 = 'W/Hz    '           / units for column 17                            TTYPE18 = 'zlens   '           / label for column 18                            TFORM18 = 'E       '           / format for column 18                           TTYPE19 = 'e_zlens '           / label for column 19                            TFORM19 = 'E       '           / format for column 19                           TTYPE20 = 'r_zlens '           / label for column 20                            TFORM20 = '2A      '           / format for column 20                           TTYPE21 = '__g-r_  '           / label for column 21                            TFORM21 = 'E       '           / format for column 21                           TTYPE22 = '__Z-H_  '           / label for column 22                            TFORM22 = 'E       '           / format for column 22                           TTYPE23 = 'Delta   '           / label for column 23                            TFORM23 = 'E       '           / format for column 23                           TUNIT23 = 'arcsec  '           / units for column 23                            DATE-HDU= '2017-01-28T10:19:30' / Date of HDU creation (UTC)                    STILVERS= '3.1     '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             J090740.0-004200Simbad@aUUUUUøÊffffff˚f ∑   	? =q<#◊
+ 	N  A€
+=*>ôôö?0£◊>∏V ?™=q?é{>Æ{J091043.0-000321Simbad@a5ªªªªªø¨ñ/…b¸ïŒì ˘   
+?Â∏<#◊
+ N  A‹∏R*>û∏R?8QÏ>Ωp§V ?˜
+=?ùp§?z·HJ090302.9-014127Simbad@`¯b¸ñ/…ø˚ß@⁄tWV Ê   	@Bè\<#◊
+ N  A‹ÃÕ*>è\)?.{>ÃÃÕV ?8QÏ?ßÆ?‚è\J091331.3-003642Simbad@aL,_í≈˘ø„í≈˘,_í ª ó Y   
+?¿  >ôôö ,   Aÿ=q*>ôôö>ôôö<#◊
+S ?πôö?aGÆ?Â∏J090051.0+015049Simbad@`ÊÃÃÃÃÃ?˝çû&Ø7 ± x 6   
+?®ı√>è\) 5   A◊\)*>£◊
+?ÅGÆ=∏QÏH ¿  ?Â∏?≥33J090952.9-010811Simbad@a/ß@⁄søÚ.¶ïÉ ü É Z   	?≈∏>ÃÃÕ <   A◊ÎÖ*>¬è\>aGÆ<£◊
+V ?ãÖ?p£◊@AÎÖJ091341.4-004342Simbad@aMÖ∏QÎøÁNÅ¥ËN ü | H   	?√◊
+>ôôö >   A◊◊
+ >è\)?àı√=∏QÏH ¿  ?√◊
+@vffJ090957.6-003619Simbad@a/Æz·Gø„^oÄë¢≥ Ñ Å S   	?Ùz·>ÎÖ Ha,bAÿ∏R*>«Æ>£◊>8QÏV ?hı√?333?Ùz·J090749.7-003807Simbad@a†m:”ø‰T2ÌÀ© å q E   	?Ωp§>Æ{ O   A◊33*>Æ{?Üff=£◊
+H ¿  ?¥z·@   J090311.6+003906Simbad@`˘ãÚXø%?‰⁄tß@⁄ á   ≠   
+@(QÏ<#◊
+ QN  A‹ÃÕ*>û∏R>ôôö<#◊
+S ?’¬è?QÎÖ?:·HJ090356.8+002310Simbad@`ˇí≈˘,_?ÿ∂`∂` É s @   	?µ¬è>∏QÏ W   A÷∏R >Ωp§>◊
+==LÃÕV @{?⁄·H@Ü∏RJ090448.8+021646Simbad@aÅ¥ËN@<M^oÄë ~ a 4   	?º(ˆ>îz· bb  A÷ÃÕ*>îz·?!GÆ=è\)H ¿  ¿  @FffJ090033.8+001957Simbad@`‰Å¥ËN?’GÆz·G } ^ ,   	?™=q>è\) g   A÷(ˆ >û∏R?ÃÕ>#◊
+V ? =q?Ø\)@ø
+=J090459.3+020837Simbad@aËNÅ¥@&ïÉ˚ o f B   	?Â∏>—ÎÖ h   A◊Æ >«Æ>Æ{=u¬èV ?Æ=#◊
+A·HJ091056.5-002919Simbad@a7àààààøﬂEgâ´ÕÔ t b 6   	?◊
+=>û∏R z   A◊p§*>îz·?Ö∏>\)H ¿  ?˘ôö@ffJ091521.5-002443Simbad@aZ›››››ø⁄]L;* t j R   	@(ˆ>◊
+= ~   AŸ33*>û∏R?ÅGÆ>∏QÏH ¿  ¿  ?z·HJ090542.0+020733Simbad@aôôôôô@¥ËNÅ p d :   
+?Ëı√>®ı√    A◊◊
+*>û∏R?^∏R>£◊
+V >«Æ¿  ?Çè\J091304.9-005343Simbad@aHß@⁄tøÏ¶ïÉ˙ n ç p   	@33<#◊
+ ÇN  A€∏*>îz·>Ö∏<#◊
+S ?£◊
+?LÃÕ@ffJ090626.6+022612Simbad@aãÚXø%@~K‰±~ q c G   	@ £◊>◊
+= Ñ   Aÿz·*>Æ{?W
+=>\)H >∏QÏ?xQÏ?é{J090459.9+015043Simbad@a¸ñ/…b?˝ÜA˝πu0 n X >   	?ﬁ∏R>◊
+= ô   A◊p§ >ÃÃÕ>∏QÏ<ı¬èV ?¢è\?Üff@“=qJ090408.6+012610Simbad@a%ãÚXø?ˆ˙O§˙O§ g _ .   
+?Â∏>∏QÏ ¥   A◊p§ >Æ{?•∏>LÃÕH ¿  ¿  @ £◊J090403.9+005619Simbad@a Ö∏QÎ?Ó	+<M] h W 2   	?ÿQÏ>û∏R ∑   A◊
+= >ôôö>û∏R<£◊
+V ?Ö∏?aGÆ@Çè\J090653.3+023207Simbad@aNÅ¥Á@H?∑.¶ f _ @   	@∏>Ωp§ Ω   Aÿff >îz·?Çè\=ÃÃÕH ?†  ?£◊@•∏J090707.9-003134Simbad@aß@⁄sø‡’Ê¯	+ f _ 8   
+?¯QÏ>Æ{ ø   A◊ÎÖ*>ôôö?é{=u¬èH ¿  ¿  @ £◊J091305.1-001409Simbad@aHÆz·GøŒ/…b¸ñ/ _ a >   	@Ö>Ωp§ ¬   Aÿz· >ä=q>£◊=#◊
+V @   ?áÆ@ÈÎÖJ090732.3-005207Simbad@aNÅ¥ËøÎÀ©áeC  [ g 4   	@QÏ>£◊ Ÿ   Aÿ(ˆ*>≥33?ê£◊>#◊
+H ¿  ?œ\)@1ÎÖJ091354.6-004539Simbad@aOGÆz·øËXø%ãÚX \ W 2   	?˘ôö>Æ{ €   A◊ôö >ôôö>◊
+==ÃÃÕV ?¿  ?8QÏ@µp§J090504.8+000800Simbad@a£◊
+=p?¡ a a G   	@Ö>ÎÖ ·   Aÿè\ >®ı√¿  ¿    ¿  ¿  ¿  J090308.3-000420Simbad@`˘NÅ¥Áø≤}'“}'“ c _ 7   
+?˝p§>≥33 „   A◊ÎÖ >îz·?aGÆ=è\)H ¿  ?∏QÏ@Ô
+=J090705.7+002128Simbad@a¬è\(ı?÷Â‘√≤°ê Z \ @   
+@ÎÖ>¬è\ Ì   Aÿ£◊*>ä=q?Ø\)>kÖH ¿  ¿  @#◊
+J090433.4-010740Simbad@atß@⁄øÚ`∂`µ T h F   	@!GÆ>·GÆ Ó   AŸ\) >®ı√>ôö=ı¬èVH?(ˆ>Bè\@Úè\J090239.0+002819Simbad@`ı33333?ﬁ4Vxöºﬁ a U 0   	?ÁÆ>£◊
+ ˘   A◊GÆ >û∏R>‹(ˆ>#◊
+H ¿  ?Ö∏A z·J090931.8+000133Simbad@a,=p£◊
+?ötß@⁄s \ X 8   
+?Ùz·?
+=qa,bA◊p§*>Êff>Æ{>W
+=V >ÎÖ?è\@ÆJ090459.0-012911Simbad@a›››››ø˜»?∑.¶ \ X ,   	?Ô\)>Ωp§	   A◊GÆ*>Æ{?xQÏ=è\)H ¿  ?®ı√@33J091148.2+003355Simbad@a>m:”†?‚¡l¡k Z f H   	@ÃÕ>ÃÃÕ"b  AŸGÆ*>îz·?=p§>LÃÕV ?¥z·¿  @C33J090319.6+015635Simbad@`˙ùi–6?ˇ¡l¡k W Y =   	@£◊>¬è\-   Aÿz·*>ä=q?QÎÖ=è\)H ¿  ?¶ff@ÃÕJ090405.3-003331Simbad@a ¥ËNÅø·‡$h¨Ò5 U b L   
+@$z·>—ÎÖ.   AŸÖ >û∏R?(ı√=£◊
+VH?+Ö?Ö∏@çp§J085751.3+013334Simbad@`Œ◊
+=p£?¯Û|çù X Z @   
+@è\>¬è\5   Aÿ£◊*>è\)?„◊
+=ÃÃÕH ¿  ¿  @
+=J085900.3+001405Simbad@`ÿ
+=p£÷?Œ`∂`µ Y \ 2   
+@◊
+>«Æ8   A◊◊
+ >û∏R¿  ¿    ¿  ¿  ¿  J091351.7-002340Simbad@aN‰±~KøŸ>ìÈ>ìË Z Y 0   
+?˛∏R>Ωp§G   A◊ôö*>û∏R?aGÆ>◊
+=V >£◊?òQÏ?ÒÎÖJ090446.4+022218Simbad@a/…b¸ñ@˘,_í≈¯ W V =   	@\)>¬è\I   Aÿff >è\)>Ö∏=LÃÕV ?+Ö?+ÖAp§J091003.5+021028Simbad@a0wwwww@eC ˛‹∫ W V .   	?¸(ˆ>Ωp§T   A◊p§ >û∏R¿  ¿    ¿  ¿  ¿  J090429.6+002935Simbad@aÚXø%ã?ﬂé8„é8‚ U V <   
+@Ö?ôöbc  Aÿ{ >·GÆ>8QÏ<#◊
+V @Tz·?∏R@J=qJ090032.7+004316Simbad@`‰\(ı¬è?ÁWõ‡$h U U 2   
+@∏>∏QÏ   A◊¬è >è\)?∏>\)V ?z·H?û∏R@vffJ090613.7-010044Simbad@a”†m:ø2ÌÀ©á O V E   	@!GÆ>—ÎÖÜ   AŸ∏ >û∏R¿  ¿    ¿  ¿  ¿  J090453.2+022018Simbad@a‰±~J@¥ËNÅ¥ S k X   	@333>·GÆà   A⁄=q*>îz·?(ı√=·GÆV @ £◊?Çè\?¸(ˆJ085855.3+013728Simbad@`◊_í≈˘,?˘˝πu0Ïß P \ D   	@ £◊>ÃÃÕâ   AŸ∏*>ôôö?Ωp§>.{H ¿  @ff?∑
+=J090346.1+013428Simbad@`˛%ãÚXø?˘0Ï®d€ O [ D   	@!ÎÖ>—ÎÖå   AŸ33 >ôôö¿  ¿    ¿  ¿  ¿  J090954.6+001754Simbad@a/GÆz·?”‰±~K S o L   
+@*·H>ı¬èó   AŸ◊
+*>®ı√?.{>Ä  V ¿  ?ãÖ@
+=J090440.0-013439Simbad@aUUUUUø˘=p£◊
+= L b L   	@0  >·GÆû   AŸ¬è >ôôö¿  ¿    ¿  ¿  ¿  J090950.8+000427Simbad@a.≈˘,_í?≤¸ñ/…b¸ Q \ D   	@   >ÃÃÕ£a  AŸ∏*>ôôö?∏R>û∏RV ?0£◊>Ωp§@p§J090204.1-003829Simbad@`ãÚXø%ø‰ÜA˝πu0 O W =   	@ôö>«Æ¥   Aÿ£◊ >îz·¿  ¿    ¿  ¿  ¿  J090930.4+002224Simbad@a,ß@⁄s?◊‰±~K‰ L U 9   	@ı√>ÃÃÕŒ   Aÿz· >îz·?Ä  =ÃÃÕH ¿  ?⁄·H@úz·J090409.4+010734Simbad@a@⁄tß?Úçû&Ø O V 7   
+@è\>«Æ‹   Aÿ=q*>è\)?kÖ=∏QÏVH>aGÆ?≈∏@0£◊J090310.6+015149Simbad@`˘i–6ù?˝—Y‚jÛ{ M i G   	@,(ˆ>˙·H˜   AŸôö >Æ{?Ä  =è\)H ¿  ?‘z·@àQÏJ085859.2+002818Simbad@`◊‰±~K?ﬁ/…b¸ñ/ M U 4   	@ÎÖ>—ÎÖ    Aÿ{*>îz·>‹(ˆ<ı¬èV ?«Æ?Ö∏@=p§J090530.4+012800Simbad@aß@⁄s?˜wwwwww N Z A   	@ £◊>—ÎÖ   AŸ
+= >ôôö>˙·H=è\)V @5¬è?ÅGÆ@¨(ˆJ090818.9+023330Simbad@a"Ö∏QÎ@wwwwww M \ 9   
+@·H>·GÆ   Aÿ£◊ >£◊
+¿  ¿    ¿  ¿  ¿  J090441.5+015154Simbad@aààààà?˝◊
+=p£÷ L W F   
+@&ff>◊
+=!c  AŸGÆ >û∏Rº£◊
+<£◊
+H ¿  >îz·@Mp§J090739.1-003948Simbad@a6ùi–øÂ:”†m9 I c Q   	@8ı√>Êffa  A⁄  *>è\)>«Æ>ôöH ¿  ?#◊
+?QÎÖJ091257.2+000300Simbad@aG†m:”?©ôôôôôô E ` W   
+@AÎÖ>ÎÖº   A⁄QÏ >ä=q¿  ¿    ¿  ¿  ¿  J090819.1-002026Simbad@a"ãÚXø%ø’À©áeC  E ] B   
+@-p§>£◊Ô   AŸGÆ >£◊
+¿  ¿    ¿  ¿  ¿  J090813.0-003657Simbad@a!ªªªªªø„¥ËNÅ¥ B X A   
+@/\)>Êff   AŸGÆ >û∏R¿  ¿    ¿  ¿  ¿  J085908.5+011320Simbad@`Ÿ"""""?Ûé8„é8„ C W F   
+@3◊
+>·GÆé   AŸÖ >îz·?p£◊=£◊
+H ¿  ?¿  @Ø
+=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
